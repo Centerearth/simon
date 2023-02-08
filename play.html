@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lank="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial_scale=1.0" />
+        <title>Andrew's Simon</title>
+        <link rel="icon" href="favicon.ico" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Andrew's Simon</h1>
+
+            <nav>
+                <menu>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="play.html">Play</a></li>
+                    <li><a href="scores.html">Scores</a></li>
+                    <li><a href="about.html">About</a></li>
+                </menu>
+            </nav>
+            <hr /> <!-- Just learned that this is a 'thematic' break-->
+        </header>
+
+        <main>
+            <div class="players">
+                Player:
+                <span class="player-name">Mystery player</span>
+            </div>
+
+            <br />
+
+            <div>
+                <label for="count">Score</label>
+                <input type="text" id="count" value="--" readonly />
+            </div>
+        </main>
+
+        <br />
+
+        <div>
+            <button>Reset</button>
+        </div>
+
+        <br />
+
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <button>
+                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
+                                <path d="M 95,5 95,95 5,95 Q 5,5 95,5" fill="green" />
+                            </svg>
+                        </button>
+                    </td>
+                    <td>
+                        <button>
+                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
+                                <path d="M5,5 5,95 95,95 Q 95,5 5,5" fill="red" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>
+                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
+                                <path d="M5,5 95,5 95,95 Q 5,95 5,5" fill="blue" />
+                            </svg>
+                        </button>
+                    </td>
+                    <td>
+                        <button>
+                            <svg aria-hidden="true" viewBox="0 0 100 100" height="100" width="100">
+                                <path d="M95,5 5,5 5,95 Q 95,95 95,5" fill="yellow" />
+                            </svg>
+                        </button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <hr />
+            <span class="text-reset">Author Name(s)</span>
+            <br /> <!--Single line break-->
+            <a href="https://github.com/Centerearth/simon">Project GitHub</a>
+        </footer>
+    </body>
+</html>
